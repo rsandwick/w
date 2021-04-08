@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="favicon.png" rel="icon" type="image/png">
+  <link
+    crossorigin="anonymous"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    rel="stylesheet"
+    type="text/css"
+  >
+  <link
+    crossorigin="anonymous"
+    href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css"
+    integrity="sha384-z7urxOoxW8XTxSu9GHfjF2IMOLNAJ5YBGVEiX0qaKfOzOhfH/HceecZevk7aFifJ"
+    rel="stylesheet"
+    type="text/css"
+  >
+  <link
+    crossorigin="anonymous"
+    href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons-wind.min.css"
+    integrity="sha384-g4oQZS4k73PgyNjIkafsdCAFLLtQIPCcjGfYfTD69WV6kgccm2oCtEnbKZYMSyv4"
+    rel="stylesheet"
+    type="text/css"
+  >
+  <link href="css/weather.css" rel="stylesheet" type="text/css">
+
+  <script
+    crossorigin="anonymous"
+    data-main="js/weather"
+    integrity="sha384-WKPjHIEhBzyEuCp8//j0gXBM/TP1OwKdWMPBRFZ6q8g66Pce1n6o0M/q4duEXrmA"
+    src="https://unpkg.com/requirejs@2.3.6/require.js"
+  ></script>
+
+  <title>Hourly Forecast</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" href="#">Daily</a>
+          <a class="nav-item nav-link active" href="#">Hourly<span class="sr-only"> (current)</span></a>
+          <a class="nav-item nav-link" href="#">5-Day</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div id="weather" class="h-100 justify-content-center row">
+      <div class="spinner-border my-auto" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

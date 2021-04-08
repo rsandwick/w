@@ -1,0 +1,43 @@
+body, table {
+  font-family: "Segoe UI",sans-serif;
+  font-size: 8pt;
+}
+
+.weather { padding: 4px; }
+
+.weather .jumbotron {
+  box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+  padding: 15px;
+  margin-bottom: 4px;
+}
+
+.weather .jumbotron h1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.weather .jumbotron p {
+  line-height: 2em;
+  margin-bottom: 0;
+}
+
+table.hourly i.wi {
+  color: #999;
+  font-size: 1.2rem;
+  vertical-align: sub;
+}
+
+table.hourly td, table.hourly th {
+  padding: 4px;
+  vertical-align: middle;
+}
+
+table.hourly td:first-child div:last-child {
+  color: #ccc;
+  text-transform: capitalize;
+}
+
+table.hourly td:last-child, table.hourly th:last-child { text-align: right; }
+
+td.weather-icon { text-align: center; }

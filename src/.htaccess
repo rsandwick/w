@@ -1,0 +1,7 @@
+#<IfModule mod_headers.c>
+#  <FilesMatch \.css$>
+#    Header set Cache-Control "max-age=86400"
+#    Header unset ETag
+#    Header unset Last-Modified
+#  </FilesMatch>
+#</IfModule>
